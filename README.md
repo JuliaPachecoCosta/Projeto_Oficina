@@ -1,31 +1,39 @@
-# ⚙️ Oficina Mecânica — SAEP / SENAI
-
 <p align="center">
-  <img src="static/img/banner.png" alt="Banner Oficina Mecânica" width="100%">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:C2185B,100:F06292&height=220&section=header&text=OFICINA%20MEC%C3%82NICA&fontSize=42&fontColor=FFFFFF&fontAlignY=38&desc=SAEP%20%E2%80%A2%20SENAI&descSize=20&descAlignY=60"
+    width="100%"
+    alt="Banner rosa Oficina Mecânica — SAEP / SENAI"
+  >
 </p>
 
 <p align="center">
-  <strong>Mais organização. Mais controle. Mais resultados.</strong>
+  <strong>✦ ORGANIZAÇÃO • GESTÃO • TECNOLOGIA ✦</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  Mais organização. Mais controle. Mais resultados.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-880E4F?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Flask-AD1457?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+  <img src="https://img.shields.io/badge/MySQL-C2185B?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/HTML5-D81B60?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-EC407A?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F8BBD0?style=for-the-badge&logo=javascript&logoColor=880E4F" alt="JavaScript">
 </p>
 
 ---
 
-## 📌 Sobre o projeto
+## 🌸 Sobre o projeto
 
 O **Oficina Mecânica** é um sistema web desenvolvido no contexto acadêmico do **SAEP / SENAI**, com o objetivo de facilitar o gerenciamento das atividades de uma oficina mecânica.
 
 A aplicação utiliza Python no backend, páginas HTML na interface e MySQL para armazenar e organizar os dados, proporcionando uma estrutura para administrar clientes, veículos e agendamentos de serviços.
 
-## ✨ Funcionalidades
+---
+
+## 🎀 Funcionalidades
 
 | Recurso | Descrição |
 |---|---|
@@ -37,19 +45,23 @@ A aplicação utiliza Python no backend, páginas HTML na interface e MySQL para
 | 🗄️ Banco de dados | Persistência das informações utilizando MySQL |
 | 🔒 Segurança | Hash de senhas com Bcrypt |
 
-## 🛠️ Tecnologias utilizadas
+---
 
-- **Python:** linguagem utilizada no backend.
-- **Flask:** framework para criação da aplicação web.
-- **MySQL:** banco de dados relacional.
-- **mysql-connector-python:** integração entre Python e MySQL.
-- **Bcrypt:** geração e verificação de hashes.
-- **HTML5:** estrutura das páginas.
-- **CSS3:** estilização da interface.
-- **JavaScript:** interatividade no frontend.
-- **Jinja2:** renderização dinâmica dos templates.
+## 💗 Tecnologias utilizadas
 
-## 📂 Estrutura do projeto
+- 💗 **Python:** linguagem utilizada no backend.
+- 🌸 **Flask:** framework para criação da aplicação web.
+- 💕 **MySQL:** banco de dados relacional.
+- 🎀 **mysql-connector-python:** integração entre Python e MySQL.
+- 💖 **Bcrypt:** geração e verificação de hashes de senhas.
+- 🌷 **HTML5:** estrutura das páginas.
+- 🌸 **CSS3:** estilização da interface.
+- 💗 **JavaScript:** interatividade no frontend.
+- 🎀 **Jinja2:** renderização dinâmica dos templates.
+
+---
+
+## 🗂️ Estrutura do projeto
 
 ```text
 oficina/
@@ -58,7 +70,8 @@ oficina/
 │   ├── css/
 │   ├── js/
 │   └── img/
-│       └── banner.png
+│       ├── banner.png
+│       └── banner-oficina.png
 ├── templates/
 │   ├── agendamentos.html
 │   ├── base.html
@@ -78,9 +91,11 @@ oficina/
 └── veiculos.py
 ```
 
-## 🚀 Como executar
+---
 
-### 1. Pré-requisitos
+## 🚀 Como executar o projeto
+
+### 🌸 1. Pré-requisitos
 
 Antes de iniciar, instale:
 
@@ -88,7 +103,7 @@ Antes de iniciar, instale:
 - MySQL Server
 - Navegador atualizado
 
-### 2. Instale as dependências
+### 💗 2. Instale as dependências
 
 Abra o terminal na pasta do projeto e execute:
 
@@ -96,13 +111,13 @@ Abra o terminal na pasta do projeto e execute:
 pip install flask mysql-connector-python bcrypt
 ```
 
-### 3. Configure o banco de dados
+### 🎀 3. Configure o banco de dados
 
 Inicie o MySQL e execute o arquivo `db.sql` utilizando o MySQL Workbench ou outro cliente compatível.
 
-Verifique se o banco, o usuário e a senha correspondem às configurações definidas em `banco.py`.
+Verifique se o banco de dados, o usuário e a senha correspondem às configurações definidas em `banco.py`.
 
-### 4. Execute a aplicação
+### 🌷 4. Execute a aplicação
 
 No terminal, dentro da pasta `oficina`, execute:
 
@@ -110,15 +125,17 @@ No terminal, dentro da pasta `oficina`, execute:
 python app.py
 ```
 
-### 5. Acesse o sistema
+### 💕 5. Acesse o sistema
 
-Abra o navegador no endereço local configurado pela aplicação. Com a configuração padrão do Flask:
+Abra o navegador no endereço local configurado pela aplicação. Com a configuração padrão do Flask, acesse:
 
 ```text
 http://127.0.0.1:5000
 ```
 
-## 🗄️ Banco de dados
+---
+
+## 💖 Banco de dados
 
 O banco de dados organiza as informações utilizadas pelo sistema. Entre as entidades previstas estão:
 
@@ -129,7 +146,9 @@ O banco de dados organiza as informações utilizadas pelo sistema. Entre as ent
 
 O arquivo `db.sql` contém o script utilizado para configurar o banco de dados.
 
-## 📁 Principais arquivos
+---
+
+## 🎀 Principais arquivos
 
 | Arquivo | Responsabilidade |
 |---|---|
@@ -142,21 +161,30 @@ O arquivo `db.sql` contém o script utilizado para configurar o banco de dados.
 | `rotas.py` | Definição das rotas |
 | `db.sql` | Script do banco de dados |
 
-## 🎯 Objetivo acadêmico
+---
+
+## 🌷 Objetivo acadêmico
 
 Aplicar conhecimentos de Desenvolvimento de Sistemas na construção de uma aplicação web, integrando backend, frontend, banco de dados relacional e mecanismos de autenticação.
+
+---
 
 ## 🏫 Instituição
 
 <p align="center">
-  <strong>SENAI — Serviço Nacional de Aprendizagem Industrial</strong><br>
-  Projeto acadêmico desenvolvido no contexto do SAEP.
+  <img src="https://img.shields.io/badge/SENAI-E91E63?style=for-the-badge&logoColor=white" alt="SENAI">
+  <br>
+  <strong>Serviço Nacional de Aprendizagem Industrial</strong>
+  <br>
+  <em>Projeto acadêmico desenvolvido no contexto do SAEP.</em>
 </p>
 
 ---
 
 <p align="center">
-  ⚙️ <strong>Oficina Mecânica</strong><br>
+  <strong>💗 Oficina Mecânica 💗</strong>
+  <br>
   <em>Tecnologia a serviço da mecânica!</em>
+  <br><br>
+  <img src="https://img.shields.io/badge/Desenvolvido%20com-Pink%20Vibes-EC407A?style=flat-square" alt="Desenvolvido com Pink Vibes">
 </p>
-
